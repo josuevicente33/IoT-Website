@@ -4,7 +4,7 @@ agent any
 tools {nodejs "node"}
 
 environment {
-    imageName = jvicente33 / test
+    imageName = jvicente33/simple-app
     dockerCredentialsName = jvicente33
     dockerImage = ''
 
@@ -14,7 +14,7 @@ stages {
 
 stage ('Environment') {
 steps {
-echo "Branch: $env.BRANCH_NAME}"
+echo "Branch: ${env.BRANCH_NAME}"
 sh 'docker -v'
 }
 
