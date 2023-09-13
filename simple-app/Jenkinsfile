@@ -4,7 +4,7 @@ agent any
 tools {nodejs "node"}
 
 environment {
-    imageName = jvicente33test
+    imageName = 'jvicente33/test'
     dockerCredentialsName = 'dockerhub-creds'
     dockerImage = ''
 
