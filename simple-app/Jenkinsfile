@@ -5,7 +5,7 @@ tools {nodejs "node"}
 
 environment {
     imageName = jvicente33/simple-app
-    dockerCredentialsName = jvicente33
+    dockerCredentialsName = 'dockerhub-creds'
     dockerImage = ''
 
 }
